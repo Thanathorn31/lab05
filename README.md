@@ -139,4 +139,76 @@ tail: แสดงบรรทัดสุดท้าย (ค่าเริ่
 
 wc: นับจำนวนบรรทัด, คำ, และอักขระ
 
+## Point: 5
+
+### Point: 5.2
+
+<img width="567" alt="Screenshot 2567-12-20 at 01 11 59" src="https://github.com/user-attachments/assets/2e4a9eae-d827-4f0d-b9d9-9e5d4358319e" />
+
+
+### Point: 5.3
+<img width="611" alt="Screenshot 2567-12-20 at 01 16 15" src="https://github.com/user-attachments/assets/2a907442-09e8-4ae9-b151-d83158c3e8e0" />
+
+
+### Point: 5.4 - 5.5
+
+<img width="425" alt="Screenshot 2567-12-20 at 01 14 56" src="https://github.com/user-attachments/assets/46cbf7ed-36fb-48a8-9cde-4403da74b975" />
+
+### Point: 5.6
+
+
+- 5.1 What is an environment variable?
+
+คำตอบ: Environment Variable คือค่าที่กำหนดไว้ในระบบปฏิบัติการเพื่อเก็บข้อมูลที่เกี่ยวข้องกับการตั้งค่าของโปรแกรมและระบบ ตัวแปรเหล่านี้ช่วยให้กระบวนการ (process) และโปรแกรมสามารถแชร์ข้อมูลที่สำคัญร่วมกันได้ เช่น:
+```
+PATH: กำหนดไดเรกทอรีสำหรับการค้นหาโปรแกรม
+HOME: โฟลเดอร์บ้านของผู้ใช้งาน
+USER: ชื่อผู้ใช้ที่ล็อกอินในระบบ
+```
+ตัวแปรเหล่านี้ถูกจัดเก็บเป็นคู่ key=value และสามารถเรียกดูได้ด้วยคำสั่ง เช่น printenv หรือ env
+
+
+- 5.2 What does the command echo $PATH output and what does it mean?
+
+คำตอบ: คำสั่ง echo $PATH ใช้สำหรับแสดงค่าของ Environment Variable ที่ชื่อ PATH ซึ่งเป็นรายการของไดเรกทอรีที่ระบบจะค้นหาเมื่อคุณพิมพ์คำสั่ง ตัวอย่างผลลัพธ์:
+
+javascript
+```
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+```
+ความหมาย:
+
+แต่ละไดเรกทอรีใน PATH คั่นด้วย :
+
+เมื่อคุณรันคำสั่ง เช่น ls ระบบจะค้นหาไฟล์ที่ชื่อ ls ในไดเรกทอรีเหล่านี้ตามลำดับ
+
+
+- 5.3 What does the man which explain about the which command?
+
+คำตอบ: 
+```
+คำสั่ง man which แสดงคู่มือของคำสั่ง which ซึ่งใช้สำหรับค้นหา absolute path ของคำสั่งหรือโปรแกรม
+```
+
+- 5.4 What is the absolute path of the ls command?
+  
+คำตอบ: ใช้คำสั่ง:
+```
+which ls
+
+ผลลัพธ์: /bin/ls
+
+Absolute Path ของ ls: /bin/ls
+```
+- 5.5 What is the absolute path of the man command?
+  
+คำตอบ: ใช้คำสั่ง:
+```
+which man
+
+ผลลัพธ์: /usr/bin/man
+
+Absolute Path ของ man: /usr/bin/man
+
+```
   
