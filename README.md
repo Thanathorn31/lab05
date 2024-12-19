@@ -1,4 +1,4 @@
-# lab05
+<img width="577" alt="Screenshot 2567-12-20 at 01 46 45" src="https://github.com/user-attachments/assets/5c0ba2e1-655a-4505-acf8-edc393cac7b5" /># lab05
 ## Point: 2
 ### Point:  2.1 - 2.2
 <img width="569" alt="Screenshot 2567-12-19 at 22 52 49" src="https://github.com/user-attachments/assets/22ec033b-d12b-4368-8340-f0f7e8e40c86" />
@@ -211,4 +211,94 @@ which man
 Absolute Path ของ man: /usr/bin/man
 
 ```
+## Point: 6
+
+### Point: 6.1
+
+<img width="567" alt="Screenshot 2567-12-20 at 01 25 33" src="https://github.com/user-attachments/assets/77b54f75-398c-43d0-9e5d-74ed006f8ff5" />
+
+
+### Point: 6.2
+
+<img width="494" alt="Screenshot 2567-12-20 at 01 26 12" src="https://github.com/user-attachments/assets/ba3c5641-115d-451a-b2b8-173554db15f5" />
+
+
+### Point: 6.3
+<img width="578" alt="Screenshot 2567-12-20 at 01 44 33" src="https://github.com/user-attachments/assets/5e9d519d-eec0-4c90-ab67-f2fa2bef16cd" />
+<img width="577" alt="Screenshot 2567-12-20 at 01 46 45" src="https://github.com/user-attachments/assets/40696472-2d7a-48d1-b2cd-d5bbe1154dd6" />
+
+### Point: 6.4
+<img width="648" alt="Screenshot 2567-12-20 at 01 47 56" src="https://github.com/user-attachments/assets/1dbec53a-4485-49af-ac23-b39452f74130" />
+
+### Point: 6.5
+
+- 6.1 Find your IP using the ifconfig command
+
+คำสั่ง ifconfig ใช้เพื่อแสดงข้อมูลการตั้งค่าของเครือข่าย รวมถึง IP Address ของอินเทอร์เฟซเครือข่าย
+
+คำสั่ง:
+```
+ifconfig
+```
+
+- 6.2 Find the IP of www.google.com using the nslookup command
+
+คำสั่ง nslookup ใช้สำหรับค้นหา IP Address ของโดเมนผ่าน DNS (Domain Name System)
+
+คำสั่ง:
+```
+nslookup www.google.com
+```
+
+- 6.3 Try to use ping and traceroute commands and explain what they are for
   
+คำสั่ง ping
+
+คำอธิบาย:ใช้ทดสอบความเชื่อมต่อระหว่างเครื่องของคุณและปลายทาง โดยส่งแพ็กเก็ต ICMP และตรวจสอบการตอบกลับ
+
+คำสั่ง:
+```
+ping www.google.com
+```
+
+คำสั่ง traceroute
+
+คำอธิบาย: ใช้ตรวจสอบเส้นทาง (hops) ที่ข้อมูลเดินทางจากเครื่องของคุณไปยังปลายทาง
+
+คำสั่ง:
+```
+traceroute www.google.com
+```
+
+6.4 Execute netstat -n and explain what the resultant table is
+
+คำอธิบาย:คำสั่ง netstat -n ใช้เพื่อแสดงตารางการเชื่อมต่อเครือข่ายในรูปแบบตัวเลข (numeric)
+
+คำสั่ง:
+```
+netstat -n
+```
+
+## Point: 7
+
+### Point: 7.1
+
+คำอธิบาย:
+
+- คำสั่ง top ใช้สำหรับแสดงข้อมูลเกี่ยวกับกระบวนการ (processes) และทรัพยากรระบบ เช่น CPU, RAM และ Swap ที่ถูกใช้งานแบบเรียลไทม์
+- มีประโยชน์สำหรับการตรวจสอบสถานะของระบบ เช่น:
+- ดูว่ากระบวนการใดใช้ CPU หรือ RAM มากที่สุด
+- ตรวจสอบว่าเครื่องมีการทำงานหนักหรือไม่
+  <img width="727" alt="Screenshot 2567-12-20 at 01 51 50" src="https://github.com/user-attachments/assets/257e0fb3-af1e-461f-a039-c6b40bf62e9a" />
+### Point: 7.2 - 7.3
+
+คำอธิบาย:
+
+- htop เป็นเครื่องมือที่คล้ายกับ top แต่มีอินเทอร์เฟซที่ใช้งานง่ายกว่า (แสดงผลในรูปแบบสีและสามารถเลื่อนดูได้)
+- ผู้ใช้สามารถเลือกกระบวนการและจัดการ (kill, renice) ได้ง่ายขึ้น
+ <img width="562" alt="Screenshot 2567-12-20 at 01 55 22" src="https://github.com/user-attachments/assets/88c3b0c9-7d21-44ee-833e-817ac07d0e40" />
+
+
+
+# 
+Thanathorn Teekawong Id: 662115021
