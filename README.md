@@ -99,5 +99,44 @@ ls -alt:
 <img width="376" alt="Screenshot 2567-12-20 at 00 20 40" src="https://github.com/user-attachments/assets/fba341a7-bd5a-45b2-852a-69e621d314c5" />
 
 
+## Point: 4
+
+### Point: 4.1
+<img width="440" alt="Screenshot 2567-12-20 at 00 28 31" src="https://github.com/user-attachments/assets/40f7d432-be46-40bc-a519-8c930e4605f0" />
+<img width="365" alt="Screenshot 2567-12-20 at 00 28 41" src="https://github.com/user-attachments/assets/40b826cc-e47e-414b-ab5e-6b915e26c441" />
+
+
+### Point: 4.2
+
+![Screenshot 2567-12-20 at 00 30 07](https://github.com/user-attachments/assets/ecce59b7-c833-4403-a19a-1f59805c5da2)
+
+
+### Point: 4.3
+
+<img width="482" alt="Screenshot 2567-12-20 at 00 30 45" src="https://github.com/user-attachments/assets/66b863a8-5427-4f14-a04c-b48b2f8bcc95" />
+
+wc ย่อมาจาก word count ใช้สำหรับนับจำนวนบรรทัด (lines), คำ (words), และอักขระ (characters) ในไฟล์ 
+```
+Number of lines: จำนวนบรรทัดในไฟล์
+Number of words: จำนวนคำในไฟล์
+Number of characters: จำนวนอักขระในไฟล์ (รวมทั้งช่องว่างและสัญลักษณ์ต่างๆ)
+```
+
+### Point: 4.4
+
+<img width="477" alt="Screenshot 2567-12-20 at 00 37 28" src="https://github.com/user-attachments/assets/3ed7d42d-571d-4098-8034-ea65954853a3" />
+
+
+### Point: 4.5
+
+cat: 	แสดงเนื้อหาทั้งหมดของไฟล์
+
+more: แสดงเนื้อหาแบบแบ่งหน้า (เหมาะสำหรับไฟล์ใหญ่)
+
+head: แสดงบรรทัดแรก (ค่าเริ่มต้น 10 บรรทัด)
+
+tail: แสดงบรรทัดสุดท้าย (ค่าเริ่มต้น 10 บรรทัด)
+
+wc: นับจำนวนบรรทัด, คำ, และอักขระ
 
   
