@@ -104,7 +104,7 @@ ls -alt:
 ### Point: 4.1
 <img width="440" alt="Screenshot 2567-12-20 at 00 28 31" src="https://github.com/user-attachments/assets/40f7d432-be46-40bc-a519-8c930e4605f0" />
 <img width="365" alt="Screenshot 2567-12-20 at 00 28 41" src="https://github.com/user-attachments/assets/40b826cc-e47e-414b-ab5e-6b915e26c441" />
-
+<img width="443" alt="Screenshot 2567-12-20 at 00 45 27" src="https://github.com/user-attachments/assets/08a7123e-fcde-46c9-8017-d38e7d96efe7" />
 
 ### Point: 4.2
 
