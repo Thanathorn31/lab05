@@ -1,4 +1,4 @@
-<img width="577" alt="Screenshot 2567-12-20 at 01 46 45" src="https://github.com/user-attachments/assets/5c0ba2e1-655a-4505-acf8-edc393cac7b5" /># lab05
+# lab05
 ## Point: 2
 ### Point:  2.1 - 2.2
 <img width="569" alt="Screenshot 2567-12-19 at 22 52 49" src="https://github.com/user-attachments/assets/22ec033b-d12b-4368-8340-f0f7e8e40c86" />
@@ -226,6 +226,7 @@ Absolute Path ของ man: /usr/bin/man
 ### Point: 6.3
 <img width="578" alt="Screenshot 2567-12-20 at 01 44 33" src="https://github.com/user-attachments/assets/5e9d519d-eec0-4c90-ab67-f2fa2bef16cd" />
 <img width="577" alt="Screenshot 2567-12-20 at 01 46 45" src="https://github.com/user-attachments/assets/40696472-2d7a-48d1-b2cd-d5bbe1154dd6" />
+<img width="577" alt="Screenshot 2567-12-20 at 01 46 45" src="https://github.com/user-attachments/assets/5c0ba2e1-655a-4505-acf8-edc393cac7b5" />
 
 ### Point: 6.4
 <img width="648" alt="Screenshot 2567-12-20 at 01 47 56" src="https://github.com/user-attachments/assets/1dbec53a-4485-49af-ac23-b39452f74130" />
