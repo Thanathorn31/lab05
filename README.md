@@ -106,9 +106,17 @@ ls -alt:
 <img width="365" alt="Screenshot 2567-12-20 at 00 28 41" src="https://github.com/user-attachments/assets/40b826cc-e47e-414b-ab5e-6b915e26c441" />
 <img width="443" alt="Screenshot 2567-12-20 at 00 45 27" src="https://github.com/user-attachments/assets/08a7123e-fcde-46c9-8017-d38e7d96efe7" />
 
+cat: 	แสดงเนื้อหาทั้งหมดของไฟล์
+
+more: แสดงเนื้อหาแบบแบ่งหน้า (เหมาะสำหรับไฟล์ใหญ่)
+
 ### Point: 4.2
 
 ![Screenshot 2567-12-20 at 00 30 07](https://github.com/user-attachments/assets/ecce59b7-c833-4403-a19a-1f59805c5da2)
+
+head: แสดงบรรทัดแรก (ค่าเริ่มต้น 10 บรรทัด)
+
+tail: แสดงบรรทัดสุดท้าย (ค่าเริ่มต้น 10 บรรทัด)
 
 
 ### Point: 4.3
@@ -141,18 +149,73 @@ wc: นับจำนวนบรรทัด, คำ, และอักขร
 
 ## Point: 5
 
+- 5.1 What is an environment variable?
+
+คำตอบ: Environment Variable คือค่าที่กำหนดไว้ในระบบปฏิบัติการเพื่อเก็บข้อมูลที่เกี่ยวข้องกับการตั้งค่าของโปรแกรมและระบบ ตัวแปรเหล่านี้ช่วยให้กระบวนการ (process) และโปรแกรมสามารถแชร์ข้อมูลที่สำคัญร่วมกันได้ เช่น:
+```
+PATH: กำหนดไดเรกทอรีสำหรับการค้นหาโปรแกรม
+HOME: โฟลเดอร์บ้านของผู้ใช้งาน
+USER: ชื่อผู้ใช้ที่ล็อกอินในระบบ
+```
+
 ### Point: 5.2
 
 <img width="567" alt="Screenshot 2567-12-20 at 01 11 59" src="https://github.com/user-attachments/assets/2e4a9eae-d827-4f0d-b9d9-9e5d4358319e" />
+
+- 5.2 What does the command echo $PATH output and what does it mean?
+
+คำตอบ: คำสั่ง echo $PATH ใช้สำหรับแสดงค่าของ Environment Variable ที่ชื่อ PATH ซึ่งเป็นรายการของไดเรกทอรีที่ระบบจะค้นหาเมื่อคุณพิมพ์คำสั่ง ตัวอย่างผลลัพธ์:
+
+javascript
+```
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+```
+ความหมาย:
+
+แต่ละไดเรกทอรีใน PATH คั่นด้วย :
+
+เมื่อคุณรันคำสั่ง เช่น ls ระบบจะค้นหาไฟล์ที่ชื่อ ls ในไดเรกทอรีเหล่านี้ตามลำดับ
+
 
 
 ### Point: 5.3
 <img width="611" alt="Screenshot 2567-12-20 at 01 16 15" src="https://github.com/user-attachments/assets/2a907442-09e8-4ae9-b151-d83158c3e8e0" />
 
+- 5.3 What does the man which explain about the which command?
+
+คำตอบ: 
+```
+คำสั่ง man which แสดงคู่มือของคำสั่ง which ซึ่งใช้สำหรับค้นหา absolute path ของคำสั่งหรือโปรแกรม
+```
+
+
 
 ### Point: 5.4 - 5.5
 
 <img width="425" alt="Screenshot 2567-12-20 at 01 14 56" src="https://github.com/user-attachments/assets/46cbf7ed-36fb-48a8-9cde-4403da74b975" />
+
+- 5.4 What is the absolute path of the ls command?
+  
+คำตอบ: ใช้คำสั่ง:
+```
+which ls
+
+ผลลัพธ์: /bin/ls
+
+Absolute Path ของ ls: /bin/ls
+```
+
+- 5.5 What is the absolute path of the man command?
+  
+คำตอบ: ใช้คำสั่ง:
+```
+which man
+
+ผลลัพธ์: /usr/bin/man
+
+Absolute Path ของ man: /usr/bin/man
+
+```
 
 ### Point: 5.6
 
@@ -216,11 +279,28 @@ Absolute Path ของ man: /usr/bin/man
 ### Point: 6.1
 
 <img width="567" alt="Screenshot 2567-12-20 at 01 25 33" src="https://github.com/user-attachments/assets/77b54f75-398c-43d0-9e5d-74ed006f8ff5" />
+- 6.1 Find your IP using the ifconfig command
+
+คำสั่ง ifconfig ใช้เพื่อแสดงข้อมูลการตั้งค่าของเครือข่าย รวมถึง IP Address ของอินเทอร์เฟซเครือข่าย
+
+คำสั่ง:
+```
+ifconfig
+```
 
 
 ### Point: 6.2
 
 <img width="494" alt="Screenshot 2567-12-20 at 01 26 12" src="https://github.com/user-attachments/assets/ba3c5641-115d-451a-b2b8-173554db15f5" />
+
+- 6.2 Find the IP of www.google.com using the nslookup command
+
+คำสั่ง nslookup ใช้สำหรับค้นหา IP Address ของโดเมนผ่าน DNS (Domain Name System)
+
+คำสั่ง:
+```
+nslookup www.google.com
+```
 
 
 ### Point: 6.3
@@ -228,8 +308,38 @@ Absolute Path ของ man: /usr/bin/man
 <img width="577" alt="Screenshot 2567-12-20 at 01 46 45" src="https://github.com/user-attachments/assets/40696472-2d7a-48d1-b2cd-d5bbe1154dd6" />
 <img width="577" alt="Screenshot 2567-12-20 at 01 46 45" src="https://github.com/user-attachments/assets/5c0ba2e1-655a-4505-acf8-edc393cac7b5" />
 
+- 6.3 Try to use ping and traceroute commands and explain what they are for
+  
+คำสั่ง ping
+
+คำอธิบาย:ใช้ทดสอบความเชื่อมต่อระหว่างเครื่องของคุณและปลายทาง โดยส่งแพ็กเก็ต ICMP และตรวจสอบการตอบกลับ
+
+คำสั่ง:
+```
+ping www.google.com
+```
+
+คำสั่ง traceroute
+
+คำอธิบาย: ใช้ตรวจสอบเส้นทาง (hops) ที่ข้อมูลเดินทางจากเครื่องของคุณไปยังปลายทาง
+
+คำสั่ง:
+```
+traceroute www.google.com
+```
+
 ### Point: 6.4
 <img width="648" alt="Screenshot 2567-12-20 at 01 47 56" src="https://github.com/user-attachments/assets/1dbec53a-4485-49af-ac23-b39452f74130" />
+
+6.4 Execute netstat -n and explain what the resultant table is
+
+คำอธิบาย:คำสั่ง netstat -n ใช้เพื่อแสดงตารางการเชื่อมต่อเครือข่ายในรูปแบบตัวเลข (numeric)
+
+คำสั่ง:
+```
+netstat -n
+```
+
 
 ### Point: 6.5
 
