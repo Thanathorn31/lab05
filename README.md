@@ -294,6 +294,7 @@ Absolute Path ของ man: /usr/bin/man
 ### Point: 6.1
 
 <img width="567" alt="Screenshot 2567-12-20 at 01 25 33" src="https://github.com/user-attachments/assets/77b54f75-398c-43d0-9e5d-74ed006f8ff5" />
+
 - 6.1 Find your IP using the ifconfig command
 
 คำสั่ง ifconfig ใช้เพื่อแสดงข้อมูลการตั้งค่าของเครือข่าย รวมถึง IP Address ของอินเทอร์เฟซเครือข่าย
